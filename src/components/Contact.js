@@ -2,7 +2,7 @@
 
 function Contact(){
     return(
-        <div  className=" w-full  h-screen  bg-gradient-to-b from-gray-800 
+        <div id="contact" className=" w-full  h-screen  bg-gradient-to-b from-gray-800 
         to-black text-white p-4">
           <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center h-full">
             <div className="pb-8 mt-12">

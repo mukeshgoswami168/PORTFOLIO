@@ -4,7 +4,7 @@ import zappier from "../assets/zappier.png"
 
 function Portfolio(){
     return(
-        <div className="w-full h-screen  bg-gradient-to-b from-gray-800 
+        <div id="portfolio" className="w-full h-screen  bg-gradient-to-b from-gray-800 
         to-black text-white md:h-screen">
           <div className="w-max-screen-lg p-4 justify-center h-full flex flex-col mx-auto ">
             <div className="pb-8 ml-[170px]">

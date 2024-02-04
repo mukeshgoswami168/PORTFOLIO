@@ -3,7 +3,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 import {Link} from "react-scroll"
 function Home(){
     return(
-        <div className=" w-full h-screen bg-gradient-to-b from-black via-black
+        <div id="home" className=" w-full h-screen bg-gradient-to-b from-black via-black
         to-gray-800 gap-5">
            {/* <img src={HeroImage}></img> */}
            {/* <RiArrowRightSLine /> */}

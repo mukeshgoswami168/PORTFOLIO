@@ -31,8 +31,9 @@ function Navbar(){
     return (
         <div className="flex justify-between items-center w-full h-15
         text-white bg-black fixed px-4">
-         <h1 className="text-4xl font-signature ml-7 ">MUKESH</h1>
-
+          <Link to="home" smooth={true} duration={500}>
+         <h1  className="text-4xl font-signature ml-7 cursor-pointer ">MUKESH</h1>
+         </Link>
           <ul className="hidden md:flex gap-6 mx-[150px] hover:scale-500">
             {
               links.map(({id,link})=>{
