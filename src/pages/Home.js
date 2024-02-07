@@ -1,4 +1,4 @@
-import HeroImage from "../assets/HeroImage.jpg"
+import HeroImage from "../assets/PHOTO.png"
 import { RiArrowRightSLine } from "react-icons/ri";
 import {Link} from "react-scroll"
 function Home(){
@@ -31,8 +31,8 @@ function Home(){
                     </Link>
                 </div>
             </div>
-            <div className="w-[40%] ml-[40px] rounded-md ">
-            <img src={HeroImage} alt="This is My Profile Photo" size={30} className="rounded-2xl mx-auto md:w-full w-4/3 ml-[60px]" ></img>
+            <div className="w-[100%] ml-[40px] mt-[-40px] rounded-full ">
+            <img src={HeroImage} alt="This is My Profile Photo" size={70} className="rounded-2xl mx-auto md:w-full w-4/3 ml-[60px]" ></img>
             </div>
            </div>
         </div>

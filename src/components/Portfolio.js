@@ -4,8 +4,8 @@ import shop from "../assets/shop.jpg"
 
 function Portfolio(){
     return(
-        <div id="portfolio" className="w-full h-screen  bg-gradient-to-b from-gray-800 
-        to-black text-white md:h-screen">
+        <div id="portfolio" className="w-full h-screen bg-gradient-to-b from-gray-800 
+        to-black text-white md:h-screen sm:mt-[150px]">
           <div className="w-max-screen-lg p-4 justify-center h-full flex flex-col mx-auto ">
             <div className="pb-8 ml-[170px]">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-200" >Portfolio</p>
